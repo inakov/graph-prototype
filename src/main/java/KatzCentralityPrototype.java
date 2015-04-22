@@ -30,8 +30,8 @@ public class KatzCentralityPrototype {
     }
 
     private static void katzCentrality(Graph graph) {
-        final double DEFAULT_ALPHA = 1.0;
-        final double DEFAULT_BETA = 1.0;
+        final double DEFAULT_ALPHA = 0.3;
+        final double DEFAULT_BETA = 0.8;
 
         int MAX_ITERATIONS = 100;
         double EPSILON = 1e-6;
